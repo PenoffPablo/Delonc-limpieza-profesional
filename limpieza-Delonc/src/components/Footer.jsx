@@ -19,7 +19,7 @@ const Footer = () => {
                     <div className="flex flex-col gap-2 text-sm">
                         <p className="font-semibold text-white">Contacto:</p>
                         <a href={`https://wa.me/${COMPANY_DATA.whatsapp}`} className="hover:text-blue-400 transition">
-                            WhatsApp: +54 9 261... (Clic aquí)
+                            WhatsApp: +54 9 261 701 8836
                         </a>
                     </div>
                 </div>

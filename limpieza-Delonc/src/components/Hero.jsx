@@ -12,10 +12,11 @@ const Hero = () => {
             <div className="relative z-10 w-full max-w-5xl mx-auto flex flex-col items-center">
 
                 <div className="flex justify-center w-full mb-6 md:mb-10 px-2">
-                    <h1 className="sr-only">{COMPANY_DATA.name}</h1>
+                    <h1 className="sr-only">{COMPANY_DATA.seoTitle}</h1>
                     <img
-                        src="/Logo Delonc.png"
-                        alt="Logo Delonc"
+                        src="/Logo-Delonc.webp"
+                        alt="Delonc Limpieza Profesional Mendoza - Especialistas en limpieza profunda"
+                        fetchpriority="high"
                         className="
             w-[110%] max-w-[450px] 
             sm:max-w-[500px] 
