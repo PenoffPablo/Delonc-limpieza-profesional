@@ -1,0 +1,1 @@
+https://delonc-limpieza-profesional.netlify.app/* https://delonc-limpieza.com/:splat 301!
