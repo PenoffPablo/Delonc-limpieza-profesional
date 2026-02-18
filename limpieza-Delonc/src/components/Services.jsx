@@ -15,48 +15,56 @@ const servicesData = [
     {
         id: 1,
         title: "Limpieza de Edificios",
+        description: "Mantenimiento integral de palieres, pasillos, vidrios en altura y zonas comunes para consorcios y administraciones.",
         icon: Building2,
         color: "bg-blue-50 text-blue-600"
     },
     {
         id: 2,
-        title: "Limp. de Consorcios",
+        title: "Limpieza de Consorcios",
+        description: "Servicio recurrente con personal asegurado. Limpieza de pisos, ascensores, veredas y cocheras.",
         icon: Building,
         color: "bg-indigo-50 text-indigo-600"
     },
     {
         id: 3,
-        title: "Limp. de Oficinas",
+        title: "Limpieza de Oficinas",
+        description: "Ambientes de trabajo impecables. Limpieza de escritorios, equipos informáticos y baños.",
         icon: Briefcase,
         color: "bg-slate-50 text-slate-600"
     },
     {
         id: 4,
-        title: "Limp. de Empresas",
+        title: "Limpieza de Empresas",
+        description: "Servicios a medida para pymes y grandes superficies. Horarios flexibles para no interrumpir la operativa.",
         icon: LayoutGrid,
         color: "bg-cyan-50 text-cyan-600"
     },
     {
         id: 5,
-        title: "Limp. de Bodegas",
+        title: "Limpieza de Bodegas",
+        description: "Higiene industrial para el sector vitivinícola.",
         icon: Factory,
         color: "bg-amber-50 text-amber-600"
     },
     {
         id: 6,
-        title: "Alfombras y Pisos",
+        title: "Limpieza de Alfombras y Pisos",
+        description: "Lavado profundo, desmanchado y tratamientos de superficies. Recuperación de brillo y desinfección.",
         icon: Sparkles,
         color: "bg-teal-50 text-teal-600"
     },
     {
         id: 7,
-        title: "Extractores y Campanas para restaurantes",
+        title: "Limpieza de Extractores",
+        description: "Desengrase profundo de campanas y ductos gastronómicos para restaurantes y hoteles.",
         icon: Wind,
         color: "bg-orange-50 text-orange-600"
     },
     {
         id: 8,
-        title: "Jardinería Áreas Grandes",
+        title: "Jardinería",
+        description: "Mantenimiento de espacios verdes, poda y cuidado de jardines en complejos residenciales y corporativos.",
         icon: Shovel,
         color: "bg-green-50 text-green-600"
     }
@@ -93,6 +101,10 @@ const Services = () => {
                                 <h3 className="text-lg font-bold text-slate-800 mb-2">
                                     {service.title}
                                 </h3>
+
+                                <p className="text-sm text-slate-600 mb-4">
+                                    {service.description}
+                                </p>
 
                                 <div className="flex items-center gap-2 text-slate-400 text-sm">
                                     <CheckCircle2 size={14} className="text-green-500" />
